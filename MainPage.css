@@ -1,4 +1,5 @@
-/* This will be the css layout for all pages of the store */
+/* This will be the css layout for 
+all pages of the store */
 header{
     color:#FF9505;
     text-align: center;
@@ -16,43 +17,41 @@ footer{
 .mainContent{
     display: flex;
     background-color: #87580D;
-    /* width: 70%; */
     min-height: 10vw;
-    /* height: 100%; */
     flex-direction: column;
     margin: 10px;
-    /* align-content: stretch; */
-    flex: 1 1 70%;
-    justify-content: space-evenly;
+    flex: 0 0 70%;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    
 }
 .subMainContent{
-    text-align: top;
     margin: 10px;
     border: 5px white;
-    /* height: 10%; */
     min-height: 5vw;
-    /* flex-wrap: wrap; */
-    /* width:30%; */
+    text-align: left;
+    font-size: 15px;
 }
 .sideContent{
     background-color: #99621E;
     display:flex;
-    /* width: 30%; */
     flex-direction: column;
-    /* height: 100%; */
     margin: 10px;
+    /* margin-top: 0; */
     min-height: 5vw;  
     flex: 1 1 30%;
-    justify-content: space-evenly;
+    float: left;
+    width: 30%;
+    align-content: flex-start;
+    justify-content: space-between;
+    position: absolute;
 }
 
 .subSideContent{
     min-height: 5vw;
-    text-align: top;
-    margin: 10;
     width:100%; 
-    /* flex-basis: 1 1 200px; */
-    /* height: 20%; */
+    margin: 10px;
 }
 
 .navButtons{
@@ -61,15 +60,9 @@ footer{
     flex-direction: row;
     margin: 10px;
     justify-content: space-around;
-
 }
 a{
-    border: 3px white;
-    /* width: 40%; */
-    /* height: 40%; */
     text-align: center;
-    border: 5px white ;
-    border-bottom-color: white;
     margin: 10px;
 }
 body{
@@ -81,11 +74,12 @@ body{
 }
 section{
     display: flex;
-    /* flex-direction: c; */
-    /* flex-basis: 1 1 100%; */
-
+    position: relative;
+    justify-content: flex-end;
 }
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
 }
