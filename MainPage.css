@@ -130,6 +130,12 @@ h1{
 .flexItColumn{
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
-
+    flex: 1 1 30%;
+}
+.spaceAround{
+    flex: 30%;
+    margin: 10px;
+}
+.centerCon{
+    flex: 50%;
 }
